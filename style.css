@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0px 2px 4px black;
+    margin-bottom:80px;
+   
+}
+.personal
+{
+    margin-top: 60px;
+     position: fixed;
+}
+img{
+    
+    height:200px;
+    width:200px;
+ 
+}
+.contact
+{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      padding:25px;
+      gap: 8px;
+}
+.contact a{
+    background-color: aqua;
+    font-size: 30px;
+   display: flex;
+   justify-content: space-around;
+    text-decoration: none;
+   width: 120px;
+   color: rgb(115, 155, 190);
+   box-shadow: 0px 2px 4px black;
+   border-radius: 10px;
+}
+.contact a:hover{
+   color: rgb(115, 155, 190);
+   box-shadow: 0px 2px 4px rgb(126, 121, 121);
+}
+.navbar
+{
+    background-color:white;
+    display: flex;
+    justify-content:right;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 0px;
+   position: sticky;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+    padding-left:20px;
+
+}
+.main
+{
+    display: flex;
+   justify-content: space-between;
+    
+}
+.content
+{
+    width: 50vw;
+   margin-top: 100px;
+   margin-right: 200px;
+}
+@media screen {
+    
+}
